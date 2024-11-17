@@ -36,7 +36,7 @@ import { TaskState } from '../../lib/networking/mutations/exportToIntegrationMut
 import { timeAgo } from '../../lib/textFormatting'
 import { Download, DownloadSimple } from '@phosphor-icons/react'
 
-const ACCOUNT_LIMIT = 50_000
+const ACCOUNT_LIMIT = 100_000
 
 const StyledLabel = styled('label', {
   fontWeight: 600,
